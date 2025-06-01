@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./lib",
+    "rootDir": "./",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true
+  },
+  "include": ["bin/**/*", "lib/**/*"],
+  "exclude": ["lib", "node_modules", "**/*.test.ts", "cdk.out"]
+}
