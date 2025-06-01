@@ -1,0 +1,28 @@
+{
+  "name": "@ecommerce/shared",
+  "version": "1.0.0",
+  "description": "Shared utilities and types",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "type-check": "tsc --noEmit",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "joi": "^17.11.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.7",
+    "@types/node": "^20.8.10",
+    "@types/uuid": "^9.0.7",
+    "jest": "^29.7.0",
+    "rimraf": "^5.0.5",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
